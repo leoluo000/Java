@@ -1,0 +1,23 @@
+package lambda;
+
+import com.smartlab.test.ProcessArray;
+
+public class CommandTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ProcessArray pa = new ProcessArray();
+		int [] array = {3 , -4 , 6 , 4};
+		pa.process(array, (int[] target) ->
+		{
+			int sum = 0 ;
+			for(int tmp : target)
+			{
+				sum += tmp;
+			}
+          System.out.println("数组元素的总和是：" + sum); 		
+		});
+
+	}
+
+}
