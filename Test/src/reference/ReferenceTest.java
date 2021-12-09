@@ -9,7 +9,7 @@ public class ReferenceTest {
 // 		String str = new String("疯狂Java讲义");
 		WeakReference wr = new WeakReference(str);
 		str = null;
-		System.out.println(wr.get());
+// 		System.out.println(wr.get());
 		System.gc();
 		System.runFinalization();
 		System.out.println(wr.get());
