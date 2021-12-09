@@ -20,7 +20,7 @@ public class ReferenceTest {
 			obj = wr.get();
 		}
 		obj = null;
-		// ttttt
+		// ttttttt
 	}
 
 }
