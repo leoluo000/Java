@@ -12,7 +12,7 @@ public class ReferenceTest {
 		System.out.println(wr.get());
 		System.gc();
 		System.runFinalization();
-		//aaaaaaa
+		//aaaaaaaaa
 		System.out.println(wr.get());
 		Object obj = wr.get();
 		if(obj == null)
